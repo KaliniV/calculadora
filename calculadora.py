@@ -29,23 +29,10 @@ valor_text=StringVar()
 
 #criação da função para entrada de valores 
 def entradaV(event):
-
     global todosValores
-    #bloquio de varios pontos
-   # if str(event) == '.' and '.' not in todosValores:
-        # se o botão precionado for . e não tiver . na caixinha, ele adiciona o .
     todosValores = todosValores + str(event)
-        #passar valor para tela
     valor_text.set(todosValores)
-  #  else:
-        # se não, nada é adicionado
-        # valor_text.set(todosValores)
-
-    # essa condicional adiciona os valores restantes diferentes de .
-    # if str(event) != '.':
-    #     todosValores = todosValores + str(event)
-    #     valor_text.set(todosValores)
-
+  
 
 #função para o calculo
 def calcular ():
