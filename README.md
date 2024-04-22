@@ -1,5 +1,5 @@
 
-# Calculadora com Tkinter
+# Calculadora
 
 Este é um simples programa de calculadora desenvolvido em Python utilizando a biblioteca Tkinter para a interface gráfica.
 
